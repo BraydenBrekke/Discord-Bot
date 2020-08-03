@@ -1,0 +1,19 @@
+{
+	"name": "discord_bot",
+	"version": "1.0.0",
+	"description": "Node.js on Docker",
+	"author": "Brayden Brekke <braydenbrekke@live.com",
+	"main": "bot.js",
+	"scripts": {
+		"start": "node bot.js"
+	},
+	"dependencies": {
+		"@discordjs/opus": "latest",
+		"discord.js": "latest",
+		"ffmpeg": "latest",
+		"unicode": "latest",
+		"pkg.json": "latest",
+		"axios": "latest",
+		"ytdl-core-discord": "latest"
+	}
+}
